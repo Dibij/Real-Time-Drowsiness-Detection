@@ -7,7 +7,7 @@ from playsound import playsound  # Install with: pip install playsound
 
 # Load Dlib's Face Detector and Landmark Predictor
 face_detector = dlib.get_frontal_face_detector()
-landmark_predictor = dlib.shape_predictor(r'facial-landmarks-recognition\shape_predictor_68_face_landmarks.dat')
+landmark_predictor = dlib.shape_predictor(r'data\shape_predictor_68_face_landmarks.dat')
 
 # Indices for the eye landmarks in Dlib's 68-point model
 LEFT_EYE_LANDMARKS = [36, 37, 38, 39, 40, 41]
